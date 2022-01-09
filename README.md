@@ -15,7 +15,7 @@ and more minor patches.
 
 ```js
 const path = require('path')
-const screenshots = require('screenshots-cli')
+const screenshots = require('screenshots-cli-savages')
 
 screenshots({
   urls: ['https://mysite.com/login'],
@@ -32,7 +32,7 @@ screenshots({
 
 ```js
 const path = require('path')
-const screenshots = require('screenshots-cli')
+const screenshots = require('screenshots-cli-savages')
 
 screenshots({
   urls: ['https://mysite.com'],
@@ -48,7 +48,7 @@ screenshots({
 
 ```js
 const path = require('path')
-const screenshots = require('screenshots-cli')
+const screenshots = require('screenshots-cli-savages')
 
 screenshots({
   urls: ['https://mysite.com/myaccount'],
