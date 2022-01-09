@@ -1,6 +1,9 @@
 # Screenshots
 
-Use puppeteer to take screenshots of a list of URLs for multiple viewports
+Use puppeteer to take screenshots of a list of URLs for multiple viewports.
+Based on a repo by Mark Murray.
+Expanded support for extended urls.
+and more minor patches.
 
 ## Installation
 
