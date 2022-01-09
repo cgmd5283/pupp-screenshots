@@ -1,0 +1,27 @@
+{
+    "name": "screenshots-cli-savage",
+    "version": "1.0.0",
+    "description": "Take screenshots for a list of URLs and viewports.",
+    "repository": "https://github.com/cgmd/screenshots-cli",
+    "author": "Mendez Holliday <holliday@handf.us> (https://github.com/cgmd)",
+    "main": "./src/index.js",
+    "license": "MIT",
+    "engines": {
+        "node": ">10"
+    },
+    "bin": {
+        "screenshots": "./bin/screenshots.js"
+    },
+    "scripts": {
+
+        "start": "./bin/screenshots.js"
+
+    },
+    "dependencies": {
+        "chalk": "^2.4.2",
+        "fs-extra": "^7.0.1",
+        "meow": "^5.0.0",
+        "puppeteer": "^1.15.0"
+    }
+
+}
